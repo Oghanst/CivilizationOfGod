@@ -1,0 +1,20 @@
+[gd_resource type="TileSet" load_steps=5 format=3 uid="uid://6bspich2j3bu"]
+
+[ext_resource type="Texture2D" uid="uid://3i67ind6tmiq" path="res://assets/game/tilesets/water.png" id="1_xs2uf"]
+[ext_resource type="Texture2D" uid="uid://clepa0khg7b21" path="res://assets/game/tilesets/grass.png" id="2_bq1r6"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i37iy"]
+texture = ExtResource("1_xs2uf")
+0:0/animation_columns = 4
+0:0/animation_frame_0/duration = 0.2
+0:0/animation_frame_1/duration = 0.2
+0:0/animation_frame_2/duration = 0.2
+0:0/animation_frame_3/duration = 0.2
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p4ffm"]
+texture = ExtResource("2_bq1r6")
+
+[resource]
+sources/0 = SubResource("TileSetAtlasSource_i37iy")
+sources/1 = SubResource("TileSetAtlasSource_p4ffm")
